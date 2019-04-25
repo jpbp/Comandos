@@ -1,12 +1,40 @@
-# Comandos
-php -S localhost:8000 -t // congigurar servidor local
-
-//descompactar e compilar arquivos targz
-tar -xzvf nomearquivo.tar.gz
-cd nomearquivo 
+# php -S localhost:8000 -t // congigurar servidor local
 
 
-java -jar JFLAP8_beta.jar // rodar jflap
+# arquivos .deb
+
+sudo dpkg -i package_file.deb
+
+
+
+# tar -zxvf programa.tar.gz
+
+Para tar.bz2
+Código:
+
+# tar -jxvf programa.tar.bz2
+
+# Agora vamos compilar o programa, para isso entre na pasta onde está descomapctado o programa pelo console, execute os comandos .
+
+Código:
+
+./configure make
+
+# Agora vamos instalar ele
+Código:
+
+ make install
+
+
+
+
+# java -jar JFLAP8_beta.jar // rodar jflap teoria
+
+
+
+# comandos git
+
+
 git config --list // ver se o usuario esta logado
 mkdir (nome da pasta) // criar pastas
 git diff // ver modificação antes do add 
@@ -32,3 +60,7 @@ git config --global user.email "email-que-usou-pra-criar-a-conta-do-github"
 git config --global user.name "nome-do-seu-usuario-de-login-do-github"
 git config --list // saber usuario
 git pull
+
+
+
+meu ip 192.168.0.105  
